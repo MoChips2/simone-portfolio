@@ -261,13 +261,13 @@ header.masthead p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -280,10 +280,10 @@ header.masthead p {
 
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
+    font-size: 22px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 
@@ -316,4 +316,9 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem #91bbe5 !important;
   box-shadow: 0 0 0 0.2rem #91bbe5 !important;
+}
+
+.li-skills {
+  color: #0066cce3;
+  background: white;
 }
