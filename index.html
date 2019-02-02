@@ -251,15 +251,15 @@
         <div class="email-submission">
           <form action="https://formspree.io/sim1.medhanie@gmail.com" method="POST">
             <div class="form-group">
-              <input type="text" name="name">
+              <input class="form-control" type="text" name="name" placeholder="Name" required>
             </div>
             <div class="form-group">
-              <input type="email" name="_replyto" placeholder="Your email" required>
+              <input class="form-control" type="email" name="_replyto" placeholder="Email" required>
             </div>
             <div class="form-group">
-              <textarea type="message" placeholder="Your message" required></textarea>
+              <textarea class="form-control" name="message" placeholder="Message" required></textarea>
             </div>
-            <input type="submit" value="Send">
+            <input class="form-control btn-primary" type="submit" value="Send">
           </form>
         </div>
       </div>
