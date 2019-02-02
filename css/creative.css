@@ -321,4 +321,5 @@ header.masthead p {
 .li-skills {
   color: #0066cce3;
   background: white;
+  border: #0066cce3 solid 1px; 
 }
